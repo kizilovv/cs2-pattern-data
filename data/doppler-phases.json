@@ -1,0 +1,31 @@
+{
+  "$schema": "https://github.com/kizilovv/cs2-pattern-data/blob/main/schema/doppler-phases.schema.json",
+  "version": "1.0.0",
+  "description": "CS2 Doppler / Gamma Doppler phase mapping by paintIndex. Covers knives (legacy + new), Bayonet / Karambit / M9 etc. and Gamma doppler gloves.",
+  "byPaintIndex": {
+    "415": { "phase": "Ruby", "family": "doppler", "isGamma": false },
+    "416": { "phase": "Sapphire", "family": "doppler", "isGamma": false },
+    "417": { "phase": "Black Pearl", "family": "doppler", "isGamma": false },
+    "418": { "phase": "Phase 1", "family": "doppler", "isGamma": false },
+    "419": { "phase": "Phase 2", "family": "doppler", "isGamma": false },
+    "420": { "phase": "Phase 3", "family": "doppler", "isGamma": false },
+    "421": { "phase": "Phase 4", "family": "doppler", "isGamma": false },
+    "568": { "phase": "Emerald", "family": "gamma-doppler", "isGamma": true },
+    "569": { "phase": "Phase 1", "family": "gamma-doppler", "isGamma": true },
+    "570": { "phase": "Phase 2", "family": "gamma-doppler", "isGamma": true },
+    "571": { "phase": "Phase 3", "family": "gamma-doppler", "isGamma": true },
+    "572": { "phase": "Phase 4", "family": "gamma-doppler", "isGamma": true },
+    "617": { "phase": "Black Pearl", "family": "doppler", "isGamma": false },
+    "618": { "phase": "Phase 2", "family": "doppler", "isGamma": false },
+    "619": { "phase": "Sapphire", "family": "doppler", "isGamma": false },
+    "852": { "phase": "Phase 1", "family": "doppler", "isGamma": false },
+    "853": { "phase": "Phase 2", "family": "doppler", "isGamma": false },
+    "854": { "phase": "Phase 3", "family": "doppler", "isGamma": false },
+    "855": { "phase": "Phase 4", "family": "doppler", "isGamma": false },
+    "1119": { "phase": "Emerald", "family": "gamma-doppler", "isGamma": true },
+    "1120": { "phase": "Phase 1", "family": "gamma-doppler", "isGamma": true },
+    "1121": { "phase": "Phase 2", "family": "gamma-doppler", "isGamma": true },
+    "1122": { "phase": "Phase 3", "family": "gamma-doppler", "isGamma": true },
+    "1123": { "phase": "Phase 4", "family": "gamma-doppler", "isGamma": true }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://github.com/kizilovv/cs2-pattern-data/blob/main/schema/weapons.schema.json",
+  "version": "1.0.0",
+  "description": "Well-known CS2 item defIndex → weapon name mappings for the items covered by the Case Hardened / Heat Treated dataset.",
+  "byDefIndex": {
+    "1": { "name": "Desert Eagle", "category": "pistol" },
+    "3": { "name": "Dual Berettas", "category": "pistol" },
+    "7": { "name": "AK-47", "category": "rifle" },
+    "17": { "name": "MP9", "category": "smg" },
+    "500": { "name": "Bayonet", "category": "knife" },
+    "503": { "name": "Flip Knife", "category": "knife" },
+    "505": { "name": "Gut Knife", "category": "knife" },
+    "506": { "name": "Karambit", "category": "knife" },
+    "507": { "name": "M9 Bayonet", "category": "knife" },
+    "508": { "name": "Huntsman Knife", "category": "knife" },
+    "509": { "name": "Falchion Knife", "category": "knife" },
+    "512": { "name": "Bowie Knife", "category": "knife" },
+    "514": { "name": "Butterfly Knife", "category": "knife" },
+    "515": { "name": "Shadow Daggers", "category": "knife" },
+    "516": { "name": "Paracord Knife", "category": "knife" },
+    "517": { "name": "Survival Knife", "category": "knife" },
+    "518": { "name": "Ursus Knife", "category": "knife" },
+    "519": { "name": "Navaja Knife", "category": "knife" },
+    "520": { "name": "Nomad Knife", "category": "knife" },
+    "521": { "name": "Stiletto Knife", "category": "knife" },
+    "522": { "name": "Talon Knife", "category": "knife" },
+    "523": { "name": "Skeleton Knife", "category": "knife" },
+    "525": { "name": "Classic Knife", "category": "knife" },
+    "526": { "name": "Kukri Knife", "category": "knife" }
+  },
+  "byPaintIndex": {
+    "44": { "name": "Case Hardened", "family": "case-hardened" },
+    "831": { "name": "Heat Treated", "family": "case-hardened" },
+    "1054": { "name": "Heat Treated", "family": "case-hardened" }
+  }
+}

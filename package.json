@@ -1,0 +1,54 @@
+{
+  "name": "cs2-pattern-data",
+  "version": "1.0.0",
+  "description": "Per-seed blue/purple/gold coverage for every Case Hardened & Heat Treated CS2 skin (25,000+ seeds) plus Doppler / Gamma Doppler phase lookup. Offline, zero-dep, TypeScript-first.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./data/case-hardened.json": "./data/case-hardened.json",
+    "./data/doppler-phases.json": "./data/doppler-phases.json",
+    "./data/weapons.json": "./data/weapons.json"
+  },
+  "files": ["dist", "data", "NOTICE.md", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "example": "tsx examples/basic.ts",
+    "normalize": "node scripts/normalize.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cs2",
+    "csgo",
+    "case-hardened",
+    "blue-gem",
+    "doppler",
+    "pattern-data",
+    "paint-seed",
+    "trading",
+    "skins"
+  ],
+  "author": "Artem Kiziloff <artem.kiziloff@gmail.com> (https://github.com/kizilovv)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizilovv/cs2-pattern-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kizilovv/cs2-pattern-data/issues"
+  },
+  "homepage": "https://github.com/kizilovv/cs2-pattern-data#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
